@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RayTutorial", "RayTutorial\RayTutorial.vcxproj", "{F4A573A8-76C3-4CDB-B478-C0B046DE8699}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibGrafx", "LibGrafx\LibGrafx.vcxproj", "{78BA2A12-96C8-41AF-9B29-4BAD149FDD4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug-Release|Win32 = Debug-Release|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4A573A8-76C3-4CDB-B478-C0B046DE8699}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F4A573A8-76C3-4CDB-B478-C0B046DE8699}.Debug|Win32.Build.0 = Debug|Win32
+		{F4A573A8-76C3-4CDB-B478-C0B046DE8699}.Debug-Release|Win32.ActiveCfg = Release|Win32
+		{F4A573A8-76C3-4CDB-B478-C0B046DE8699}.Debug-Release|Win32.Build.0 = Release|Win32
+		{F4A573A8-76C3-4CDB-B478-C0B046DE8699}.Release|Win32.ActiveCfg = Release|Win32
+		{F4A573A8-76C3-4CDB-B478-C0B046DE8699}.Release|Win32.Build.0 = Release|Win32
+		{78BA2A12-96C8-41AF-9B29-4BAD149FDD4F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{78BA2A12-96C8-41AF-9B29-4BAD149FDD4F}.Debug|Win32.Build.0 = Debug|Win32
+		{78BA2A12-96C8-41AF-9B29-4BAD149FDD4F}.Debug-Release|Win32.ActiveCfg = Debug-Release|Win32
+		{78BA2A12-96C8-41AF-9B29-4BAD149FDD4F}.Debug-Release|Win32.Build.0 = Debug-Release|Win32
+		{78BA2A12-96C8-41AF-9B29-4BAD149FDD4F}.Release|Win32.ActiveCfg = Release|Win32
+		{78BA2A12-96C8-41AF-9B29-4BAD149FDD4F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
