@@ -130,9 +130,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ChildView.cpp" />
+    <ClCompile Include="GlRenderer.cpp" />
     <ClCompile Include="graphics\GrCamera.cpp" />
     <ClCompile Include="MainFrm.cpp" />
     <ClCompile Include="graphics\OpenGLWnd.cpp" />
+    <ClCompile Include="MyRaytraceRenderer.cpp" />
     <ClCompile Include="RayTutorial.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -141,9 +143,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ChildView.h" />
+    <ClInclude Include="GlRenderer.h" />
     <ClInclude Include="graphics\GrCamera.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="graphics\OpenGLWnd.h" />
+    <ClInclude Include="MyRaytraceRenderer.h" />
     <ClInclude Include="RayTutorial.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />

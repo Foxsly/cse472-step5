@@ -41,6 +41,12 @@ private:
     CGrCamera m_camera;
     CGrModelX m_model;
 
+	bool m_raytrace;
+
+	BYTE      **m_rayimage;
+    int         m_rayimagewidth;
+    int         m_rayimageheight;
+
     virtual void OnGLDraw(CDC * pDC);
 
 public:
@@ -48,5 +54,7 @@ public:
     afx_msg void OnRButtonDown(UINT nFlags, CPoint point);
     afx_msg void OnMouseMove(UINT nFlags, CPoint point);
     afx_msg BOOL OnMouseWheel(UINT nFlags, short zDelta, CPoint pt);
+	afx_msg void OnRenderRaytrace();
+	afx_msg void OnUpdateRenderRaytrace(CCmdUI *pCmdUI);
 };
 
