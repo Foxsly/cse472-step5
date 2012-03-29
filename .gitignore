@@ -1,0 +1,9 @@
+Debug
+Release
+obj
+bin
+desktop.ini
+*.suo
+*.user
+ipch
+*.sdf
